@@ -1,4 +1,3 @@
-// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Palet dari DESIGN.md (Monochrome Gallery)
         surface: '#f9f9f9',
         'surface-dim': '#dadada',
         'surface-bright': '#f9f9f9',
@@ -59,8 +57,8 @@ module.exports = {
         'surface-variant': '#e2e2e2',
       },
       fontFamily: {
-        'display': ['var(--font-playfair)', 'serif'],
-        'sans': ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-playfair)', 'serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
       },
       fontSize: {
         'display-xl': ['80px', { lineHeight: '1.1', letterSpacing: '-0.02em', fontWeight: '700' }],
@@ -79,14 +77,14 @@ module.exports = {
         'stack-xl': '160px',
         'stack-lg': '80px',
         'stack-md': '40px',
-        'gutter': '24px',
+        gutter: '24px',
       },
       borderRadius: {
-        DEFAULT: '0',
-        lg: '0',
-        xl: '0',
-        '2xl': '0',
-        '3xl': '0',
+        DEFAULT: '0px',
+        lg: '0px',
+        xl: '0px',
+        '2xl': '0px',
+        '3xl': '0px',
         full: '9999px',
       },
       borderWidth: {

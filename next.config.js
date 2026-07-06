@@ -12,9 +12,14 @@ const nextConfig = {
     ],
   },
   trailingSlash: true,
-  experimental: {
-    optimizeCss: true,
+  // Untuk menghilangkan warning multiple lockfiles
+  turbopack: {
+    root: process.cwd(),
   },
-}
+  // Nonaktifkan optimizeCss sementara (karena pakai critters)
+  // experimental: {
+  //   optimizeCss: true,
+  // },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
